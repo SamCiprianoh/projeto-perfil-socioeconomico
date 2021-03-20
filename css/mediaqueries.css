@@ -1,23 +1,39 @@
 /*========== MEDIA QUERIES ===========*/
-@media screen and (max-width:320px){
-   .header__logo{
-      font-size: .875rem;
+@media screen and (max-width: 1024px){
+   .container{
+      padding: 1.875rem;
    }
 
-   .header__toggle{
-      font-size: 1rem;
+   .main__cards{
+      flex-wrap: wrap;
    }
 
-   .nav{
-      width: 80%;
-   }
-
-   .nav__logo-name{
-      font-size: .875rem;
+   .main__charts:last-child{
+      margin: 1.875rem 0 0 0;
    }
 }
 
+@media screen and (max-width: 768px){
+   .container{
+      padding: 1.875rem;
+   }
 
+   .main__cards{
+      flex-wrap: wrap;
+   }
+
+   .main__participantes-dados{
+      display: block;
+   }
+
+   .main__participaram{
+      margin-left: 1.875rem;
+   }
+
+   .main__charts{
+      margin: 1.875rem 0 0 0;
+   }
+}
 
 @media screen and (max-width: 425px){
    .container{
@@ -62,8 +78,33 @@
    display: flex;
    justify-content: center;
    }
+
+   .main__participaram{
+      margin-left: 0;
+   }
+   
 }
 
-@media screen and (max-width: 1024px){
-  
+@media screen and (max-width: 375px){
+   .main__charts{
+      width: 100%;
+   }
+}
+
+@media screen and (max-width:320px){
+   .header__logo{
+      font-size: .875rem;
+   }
+
+   .header__toggle{
+      font-size: 1rem;
+   }
+
+   .nav{
+      width: 80%;
+   }
+
+   .nav__logo-name{
+      font-size: .875rem;
+   }
 }

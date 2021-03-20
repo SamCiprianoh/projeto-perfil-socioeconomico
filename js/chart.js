@@ -26,6 +26,7 @@ var myChart = new Chart(ctx, {
         }]
     },
     options: {
+        responsive: true,
        title: {
          display: true,
          text: '1. Qual o seu curso?',
