@@ -63,6 +63,7 @@
    border-radius: .625rem;
    flex: 2;
    position: relative;
+   margin-bottom: 1.875rem;
 }
 
 .main__charts:first-child{
