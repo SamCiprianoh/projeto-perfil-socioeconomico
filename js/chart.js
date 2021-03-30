@@ -253,6 +253,7 @@ async function generateChart() {
             }
         })
 
+
         resNoturno[numQuestao].forEach(function(resposta){
             for(j = 1; j < 2; j++){
                 for(k = 0; k < opcao.length; k++){
@@ -291,6 +292,7 @@ async function generateChart() {
             }
         }
 
+        console.log(variavel)
         chartTwoLabels(classe, tipo, labels, dadosM, dadosN, numQuestao)
     }
 
@@ -375,7 +377,7 @@ async function generateChart() {
 
     geraChart(moraCom, optMoraCom, 13, dadosMoraComM, dadosMoraComN, labelsMoraCom, 'chartMoraCom', 'horizontalBar')
 
-
+    
     //Chart Mora com quem
     let TempoMoradia 
     let dadosTempoMoradiaM = []
@@ -383,6 +385,10 @@ async function generateChart() {
     let labelsTempoMoradia = []
 
     geraChart(TempoMoradia, optTempoMoradia, 16, dadosTempoMoradiaM, dadosTempoMoradiaN, labelsTempoMoradia, 'chartTempoMoradia', 'bar')
+
+    
+
+
 
     //Chart Mora com quem
     let QtdMoradores 
@@ -439,7 +445,7 @@ async function generateChart() {
 
      
     
-    console.log(respostas)
+    //console.log(respostas)
      
 }
 

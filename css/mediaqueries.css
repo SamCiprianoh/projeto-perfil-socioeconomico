@@ -8,8 +8,12 @@
       flex-wrap: wrap;
    }
 
-   .main__charts:last-child{
-      margin: 1.875rem 0 0 0;
+   .main__participantes{
+      margin: 0 1.875rem 1.875rem 0;
+   }
+
+   .main__charts{
+      margin: 0 0 1.875rem 0;
    }
 }
 
@@ -20,19 +24,26 @@
 
    .main__cards{
       flex-wrap: wrap;
+      flex-direction: column;
+   }
+
+   .main__subtitle{
+      font-size: 1.875rem;
+      color: #2E446E;
+      margin-top: 0;
    }
 
    .main__participantes-dados{
       display: block;
    }
 
-   .main__participaram{
-      margin-left: 1.875rem;
+   .main__charts{
+      margin: 0 0 1.875rem 0;
+      padding: .625rem;
    }
 
-   .main__charts{
-      margin: 1.875rem 0 0 0;
-      padding: .625rem;
+   .main__charts:first-child{
+      margin-right: 0;
    }
 }
 

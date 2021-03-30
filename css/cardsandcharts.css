@@ -1,7 +1,10 @@
 /*========== CARDS ===========*/
 .main__cards{
    display: flex;
-   margin-top: var(--container);
+}
+
+.main__painel{
+   margin: 0 0 1.875rem 0;
 }
 
 .main__participantes{
@@ -11,6 +14,7 @@
    background-color: var(--Cornflowerblue);
    color: var(--White);
    padding: 1.25rem;
+   margin-right: 1.875rem;
    border-radius: .625rem;
    box-shadow: 1px 1px 2px rgba(15, 45, 90, 0.1);
 }
@@ -54,12 +58,19 @@
 /*Chart Curso e Periodo*/
 .main__charts{
    flex-wrap: wrap;
-   margin-left: 1.875rem;
    background-color: var(--White);
    padding: 1.125rem;
    border-radius: .625rem;
    flex: 2;
    position: relative;
+}
+
+.main__charts:first-child{
+   margin-right: 1.875rem;
+}
+
+.main__charts-curso{
+   margin-right: 1.875rem;
 }
 
 .main__moradia{
@@ -71,30 +82,7 @@
 .main__subtitle{
    font-size: 1.875rem;
    color: #2E446E;
-}
-
-.main__charts-moradia{
-   background-color: var(--White);
-   padding: 1.125rem;
-   border-radius: .625rem;
-   flex: 2;
-   position: relative;
-}
-
-.main__charts-moradia:first-child{
-   margin-right: 1.875rem;
-}
-
-.main__charts-MoraCom{
-   background-color: var(--White);
-   padding: 1.125rem;
-   border-radius: .625rem;
-   flex: 2;
-   position: relative;
-}
-
-.main__charts-MoraCom:first-child{
-   margin-right: 1.875rem;
+   margin: 3.75rem 0;
 }
 
 .main__dadosPessoais{
@@ -103,14 +91,3 @@
    border-left: 4px solid var(--Cornflowerblue-darker);
 }
 
-.main__charts-dadosPessoais{
-   background-color: var(--White);
-   padding: 1.125rem;
-   border-radius: .625rem;
-   flex: 2;
-   position: relative;
-}
-
-.main__charts-dadosPessoais:first-child{
-   margin-right: 1.875rem;
-}
